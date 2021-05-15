@@ -1,0 +1,23 @@
+
+
+#ifndef template_hpp
+#define template_hpp
+
+
+#define Template_VERSION_MAJOR @Template_VERSION_MAJOR@
+#define Template_VERSION_MINOR @Template_VERSION_MINOR@
+#define Template_VERSION_PATCH @Template_VERSION_PATCH@
+#define Template_VERSION "@Template_VERSION@"
+
+
+namespace temp {
+
+
+void dummy(void);
+
+
+}
+
+
+#endif
+
