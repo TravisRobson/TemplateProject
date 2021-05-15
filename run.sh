@@ -39,7 +39,7 @@ function clean() {
 
 
 function runTests() {
-  ctest
+  ctest --verbose
 }
 
 

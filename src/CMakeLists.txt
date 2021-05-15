@@ -31,5 +31,7 @@ install(TARGETS driver DESTINATION bin)
 if (BUILD_TESTS)
   add_test(NAME driver_completes COMMAND driver)
   set_tests_properties(driver_completes PROPERTIES PASS_REGULAR_EXPRESSION "completed")
+  
+  add_subdirectory(tests)
 endif()
 
