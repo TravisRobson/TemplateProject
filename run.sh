@@ -45,7 +45,7 @@ function runTests() {
 
 function runDriver() {
   if [ $install == true ]; then
-    popd
+    popd > /dev/null
     echo "" # Give some space between driver output and this script's output.
     ./bin/driver
   else
